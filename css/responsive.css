@@ -131,8 +131,13 @@
 
 .mobile_menu_nav .dropdown-container {
     display: none;
-    padding-left: 15px;
+    padding-left: 15px; 
+    transition: all 0.3s ease-in-out;
 }
+
+.dropdown-container.active {
+    display: block;
+  }
 
 .mobile_menu_nav ul li {
     cursor: pointer;
@@ -160,6 +165,7 @@
         height: 35px;
         width: 35px;
         margin-left: 390px !important;
+        display: block;
     }
 }
 
@@ -168,6 +174,7 @@
         height: 35px;
         width: 35px;
         margin-left: 300px !important;
+        display: block;
     }
 }
 
@@ -176,6 +183,7 @@
         height: 35px;
         width: 35px;
         margin-left: 200px !important;
+        display: block;
     }
 }
 
