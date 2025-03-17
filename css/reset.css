@@ -1,0 +1,15 @@
+/*Reset tất cả thành phần HTML*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    outline: none;
+}
+
+:root{
+    --text-color: #00285a;
+    --btn-color: rgb(203,1,0);
+    --background: #1a2c58;
+}
+

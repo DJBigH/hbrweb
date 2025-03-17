@@ -1,0 +1,137 @@
+/* UTM-Bebas */
+
+@font-face {
+    font-family: "UTM-Bebas";
+    src: url("../fonts/00041-UTM-Bebas.ttf");
+}
+
+@font-face {
+    font-family: "Inter-Medium";
+    src: url("../fonts/Inter_18pt-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Inter-Bold";
+    src: url("../fonts/Inter_18pt-Bold.ttf");
+}
+
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+html,
+body {
+    font-family: system-ui, sans-serif;
+    font-size: 16px;
+    background: #f9f9f9 !important;
+    overflow-x: hidden;
+    /* Ẩn cuộn ngang */
+    max-width: 100%;
+    /* Giới hạn chiều rộng tối đa */
+}
+
+a,
+i,
+span {
+    display: inline-block;
+    text-decoration: none !important;
+}
+
+.fa,
+.far,
+.fas {
+    font-family: "Font Awesome 5 Free";
+}
+
+.fa,
+.fas {
+    font-weight: 900;
+}
+
+ul,
+ol {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+tbody,
+td,
+tfoot,
+th,
+thead,
+tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+}
+
+table {
+    caption-side: bottom;
+    border-collapse: collapse;
+}
+
+.default-box-title,
+.default-box-title span {
+    font-weight: 400;
+    font-size: 56px;
+    font-family: UTM-Bebas;
+    color: rgb(0, 40, 90);
+    margin-bottom: 30px;
+}
+
+/* ------------Owl Carausel---------------- */
+
+.owl-nav {
+    display: flex !important;
+}
+
+.owl-nav {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30%;
+    z-index: 0;
+}
+
+
+.owl-carousel .owl-item img.owl-lazy {
+    transform-style: preserve-3d;
+}
+
+/*  ------------img----------------*/
+img {
+    max-width: 100%;
+}
+
+/* ---------Video--------- */
+iframe {
+    border: none;
+}
+
+.lazy-bg.loaded,
+.lazy-img.loaded {
+    opacity: 1;
+}
+
+.lazy-bg {
+    width: 100%;
+    background-color: #f0f0f0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity .5s ease;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
