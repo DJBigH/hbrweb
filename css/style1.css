@@ -25,7 +25,7 @@
 .core_values_top:before {
     position: absolute;
     content: '';
-    background: url(../images/icon_why.png) top center no-repeat;
+    background: url(/images/icon_why.png) top center no-repeat;
     width: 356px;
     height: 70px;
     left: 35%;
@@ -83,7 +83,7 @@
 
 .accordion__item .accordion__arrow-item {
     font-weight: 700;
-    background: url(../images/icon_left.png) top center no-repeat;
+    background: url(/images/icon_left.png) top center no-repeat;
     width: 24px;
     height: 24px;
 }
