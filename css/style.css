@@ -56,7 +56,7 @@
 
 header {
     height: 76px;
-    background-color: var(--white);
+    background-color: #fff;
     position: sticky;
     top: -1px;
     right: 0;
@@ -503,8 +503,8 @@ header {
 }
 
 
-/* ------------box-testimonials-reviews----------- */
-.box-testimonials-reviews .box-title {
+/* ------------box-testimonials----------- */
+.box-testimonials .box-title {
     font-weight: 400;
     font-size: 56px;
     font-family: "UTM-Bebas";
@@ -512,7 +512,7 @@ header {
     margin-bottom: 30px;
 }
 
-.box-testimonials-reviews p {
+.box-testimonials p {
     font-size: 24px;
     font-family: "OpenSans-Regular";
     font-weight: 400;
@@ -526,7 +526,7 @@ header {
     aspect-ratio: 16 / 9;
 }
 
-.box-testimonials-reviews a.btn {
+.box-testimonials .btn {
     font-family: "OpenSans-Regular";
     font-size: 14px;
     font-weight: 700;
@@ -1276,6 +1276,44 @@ header {
     transform: scaleY(1);
 }
 
+.box-book .book-items .owl-nav .owl-next {
+    position: absolute;
+    z-index: 100;
+    right: -20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background: url(/images/next-arrow.png) center center no-repeat;
+    outline: none;
+}
+
+.box-book .book-items .owl-nav .owl-prev {
+    position: absolute;
+    z-index: 100;
+    left: -20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background: url(/images/next-arrow.png) center center no-repeat;
+    transform: rotate(180deg);
+    outline: none;
+}
+
+.box-book .book-items .owl-nav .owl-next span,
+.box-book .book-items .owl-nav .owl-prev span {
+    display: none;
+}
+
+.box-book .book-items .owl-nav {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    z-index: 0;
+}
+
 /* ------------form-register----------- */
 .form-enrollment {
     background: url(../images/enrollment-form-2-steps.png) right bottom no-repeat, linear-gradient(to right, #051f38, #192b57, #1a2c58);
@@ -1371,12 +1409,12 @@ footer h3 {
     z-index: 2;
 }
 
-.fixed-right .item {
+.fixed-right .items {
     width: 40px !important;
     margin-bottom: 10px !important;
 }
 
-.fixed-right .item img {
+.fixed-right .items img {
     width: 2.5rem;
     height: 2.5rem;
 }

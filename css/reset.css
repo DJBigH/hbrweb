@@ -5,6 +5,8 @@
     box-sizing: border-box;
     line-height: 1.6;
     outline: none;
+  scrollbar-color: rgb(0,40,90) #fefefe;
+  
 }
 
 :root{

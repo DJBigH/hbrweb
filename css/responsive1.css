@@ -1,0 +1,225 @@
+/* ------------banner----------- */
+
+/* ------------six-core----------- */
+@media screen and (max-width: 400px) {
+    .core_values_top {
+        font-size: 25px;
+        height: 6rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .core_values_top {
+        font-size: 25px;
+        height: 65px;
+    }
+
+    .core_values_top:before {
+        background-size: 100% 100%;
+        width: 100px;
+        height: 20px;
+    }
+
+    .accordion__item .accordion__title {
+        font-size: 15px;
+    }
+
+    .accordion__item .accordion__title .accordion__arrow {
+        top: 6px;
+    }
+
+    .accordion__title-text {
+        text-transform: capitalize;
+        font-size: 14px;
+        padding: 3px;
+    }
+}
+
+/* ------------numbers-say----------- */
+@media (max-width: 767px) {
+    .numbers_say_top {
+        font-size: 25px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .numbers_say_item {
+        flex-basis: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .numbers_say_item img {
+        height: 5rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .numbers_say_item_show {
+        display: none !important;
+    }
+}
+
+/* ------------characteristics----------- */
+@media (max-width: 767px) {
+    .characteristics_top span {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .characteristics {
+        padding-top: 0;
+    }
+
+    .characteristics .nav-item {
+        margin-bottom: 15px;
+    }
+
+    .characteristics .nav-tabs .nav-link {
+        padding: 0 23px !important;
+    }
+
+    .characteristics_img {
+        margin-top: 25px;
+    }
+}
+
+/* ------------education----------- */
+@media (max-width: 767px) {
+    .education_program_top {
+        padding-top: 0;
+        font-size: 25px;
+    }
+
+    .education_program_no_padding_right {
+        padding-right: calc(var(--bs-gutter-x)* .5);
+    }
+
+    .education_program_item_img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .education_program_item_img .btn-course-place {
+        margin-top: 10px;
+    }
+
+    .education_program_item_img a {
+        margin-top: 10px;
+    }
+
+
+    .education_program_item_name h3 {
+        font-size: 30px;
+    }
+
+    .education_program_item_name button {
+        font-size: 14px;
+    }
+}
+
+/* ------------team----------- */
+@media (max-width: 767px) {
+
+    .team {
+        background: none;
+        padding: 0;
+    }
+
+    .team_top {
+        width: 100% !important;
+        font-size: 25px;
+        background: unset;
+        color: #0C4286;
+    }
+
+    .team_main {
+        padding-top: 0;
+    }
+
+    .team_item {
+        width: 100%;
+        float: unset;
+        text-align: center;
+    }
+
+    .team_item img {
+        border: 2px solid #fff;
+    }
+
+    .team_item .mask button {
+        margin-top: 30%;
+    }
+
+    .team_item_name {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .team_top {
+        width: 58%;
+    }
+
+    .team_item_name {
+        font-size: 25px;
+        font-weight: 400;
+    }
+}
+
+/* ------------member----------- */
+@media (max-width: 767px) {
+    .member {
+        padding: 20px 0;
+    }
+
+    .member_top h2 {
+        font-size: 25px;
+    }
+
+    .member_top span {
+        width: 100%;
+    }
+
+    .member_footer {
+        margin-top: 20px;
+    }
+
+    .member_bottom {
+        margin-top: 0;
+    }
+
+    .member_main .members .owl-nav .owl-next {
+        position: absolute;
+        z-index: 100;
+        right: -20px;
+        width: 24px;
+        height: 24px;
+        border-radius: 100%;
+        background: url(/images/icon_right.png) center center no-repeat;
+        outline: none;
+    }
+
+    .member_main .members .owl-nav .owl-prev {
+        position: absolute;
+        z-index: 100;
+        left: -10px;
+        width: 8px;
+        height: 14px;
+        border-radius: 100%;
+        background: url(/images/icon_prev.png) center center no-repeat;
+        outline: none;
+    }
+
+    .member_main .members .owl-nav {
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 80%;
+        z-index: 0;
+    }
+    
+}

@@ -8,23 +8,23 @@ $(document).ready(function () {
     autoplayTimeout: 3000,
     autoplayHoverPause: false,
     responsive: {
-        // breakpoint từ 0px trở lên
-        0: {
-            items: 1
-        },
-        // breakpoint từ 480px trở lên
-        480: {
-            items: 1
-        },
-        // breakpoint từ 768px trở lên
-        768: {
-            items: 1
-        },
-        991: {
-          items: 1
-        }
-    }
-});
+      // breakpoint từ 0px trở lên
+      0: {
+        items: 1,
+      },
+      // breakpoint từ 480px trở lên
+      480: {
+        items: 1,
+      },
+      // breakpoint từ 768px trở lên
+      768: {
+        items: 1,
+      },
+      991: {
+        items: 1,
+      },
+    },
+  });
 
   $(".items").owlCarousel({
     margin: 20,
@@ -39,20 +39,20 @@ $(document).ready(function () {
     responsive: {
       // breakpoint từ 0px trở lên
       0: {
-          items: 1
+        items: 1,
       },
       // breakpoint từ 480px trở lên
       480: {
-          items: 1
+        items: 1,
       },
       // breakpoint từ 768px trở lên
       768: {
-          items: 1
+        items: 1,
       },
       991: {
-        items: 3
-      }
-  }
+        items: 3,
+      },
+    },
   });
 
   $(".student-testimonial").owlCarousel({
@@ -73,20 +73,20 @@ $(document).ready(function () {
     responsive: {
       // breakpoint từ 0px trở lên
       0: {
-          items: 1
+        items: 1,
       },
       // breakpoint từ 480px trở lên
       480: {
-          items: 1
+        items: 1,
       },
       // breakpoint từ 768px trở lên
       768: {
-          items: 1
+        items: 1,
       },
       991: {
-        items: 6
-      }
-  }
+        items: 6,
+      },
+    },
   });
 
   $(".student-testimonial1").owlCarousel({
@@ -107,20 +107,20 @@ $(document).ready(function () {
     responsive: {
       // breakpoint từ 0px trở lên
       0: {
-          items: 1
+        items: 1,
       },
       // breakpoint từ 480px trở lên
       480: {
-          items: 1
+        items: 1,
       },
       // breakpoint từ 768px trở lên
       768: {
-          items: 1
+        items: 1,
       },
       991: {
-        items: 6
-      }
-  }
+        items: 6,
+      },
+    },
   });
 
   $(".media-items").owlCarousel({
@@ -136,20 +136,20 @@ $(document).ready(function () {
     responsive: {
       // breakpoint từ 0px trở lên
       0: {
-          items: 1
+        items: 1,
       },
       // breakpoint từ 480px trở lên
       480: {
-          items: 1
+        items: 1,
       },
       // breakpoint từ 768px trở lên
       768: {
-          items: 1
+        items: 1,
       },
       991: {
-        items: 3
-      }
-  }
+        items: 3,
+      },
+    },
   });
 
   $(".book-items").owlCarousel({
@@ -165,21 +165,48 @@ $(document).ready(function () {
     responsive: {
       // breakpoint từ 0px trở lên
       0: {
-          items: 1
+        items: 1,
       },
       // breakpoint từ 480px trở lên
       480: {
-          items: 1
+        items: 1,
       },
       // breakpoint từ 768px trở lên
       768: {
-          items: 2
+        items: 1,
       },
       991: {
-        items: 3
-      }
-  }
+        items: 3,
+      },
+    },
+  });
+
+  $(".members").owlCarousel({
+    margin: 20,
+    loop: true,
+    nav: true,
+    items: 3,
+    dots: false,
+    autoplay: false,
+    autoplayTimeout: 1000,
+    autoplayHoverPause: false,
+    ltr: true,
+    responsive: {
+      // breakpoint từ 0px trở lên
+      0: {
+        items: 1,
+      },
+      // breakpoint từ 480px trở lên
+      480: {
+        items: 1,
+      },
+      // breakpoint từ 768px trở lên
+      768: {
+        items: 2,
+      },
+      991: {
+        items: 3,
+      },
+    },
   });
 });
-
-
