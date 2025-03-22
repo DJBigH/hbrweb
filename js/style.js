@@ -1,3 +1,4 @@
+// Thanh menu mobile
 window.onload = function () {
   const menuOpen = document.querySelector(".mobile_menu_open");
   const menuClose = document.querySelector(".icon-close");
@@ -56,6 +57,7 @@ window.onload = function () {
   });
 };
 
+// Thanh menu cố định
 document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll(".accordion__title").forEach(function (title) {
     title.addEventListener("click", function () {
@@ -83,6 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
+// Hiển thị ảnh tương ứng với tab
 document.addEventListener("DOMContentLoaded", function () {
   let tabs = document.querySelectorAll(".nav-tabs .nav-link");
   let image = document.getElementById("uspImage");
@@ -94,5 +97,19 @@ document.addEventListener("DOMContentLoaded", function () {
         image.src = imgSrc;
       }
     });
+  });
+});
+
+// Hiển thị mục lục
+$(document).ready(function() {
+  $("#toggle-btn").click(function() {
+      let toc = $(".toc-hierarchy");
+      if (toc.is(":visible")) {
+          toc.slideUp(300); // Trượt lên để ẩn
+          $(this).text("[Hiện]"); // Đổi chữ
+      } else {
+          toc.slideDown(300); // Trượt xuống để hiện
+          $(this).text("[Ẩn]");
+      }
   });
 });

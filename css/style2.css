@@ -1,0 +1,345 @@
+/* ----------bg-breadcrumb----------- */
+.bg-breadcrumb {
+    background: white;
+    padding: 20px 0;
+    border-top: 1px solid #001836;
+}
+
+.breadcrumb .link,
+.breadcrumb .link a {
+    color: #00285a !important;
+}
+
+.breadcrumb .link {
+    padding-left: 18px;
+}
+
+/* ----------post-layout----------- */
+
+.post-detail .content,
+.post-detail .content p,
+.post-detail .content div,
+.post-detail .content span,
+.post-detail .content ul li,
+.post-detail .content span,
+.post-detail .content strong,
+.post-detail .content em,
+.post-detail .content i {
+    color: black;
+}
+
+.content span,
+.content a,
+.content i {
+    display: inline;
+}
+
+.post-detail .article-detail a,
+.post-detail .article-detail span,
+.post-detail .article-detail i {
+    font-family: "Inter-Regular";
+    font-size: 16px;
+}
+
+h2,
+h2 strong,
+h2 b {
+    font-size: 27px !important;
+}
+
+h3,
+h3 strong,
+h3 b {
+    font-size: 23px !important;
+}
+
+h2,
+h3,
+h4 {
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.post-layout b,
+.post-layout strong {
+    font-family: "OpenSans-bold";
+    font-weight: bold;
+}
+
+.post-detail .content article {
+    font-size: 16px;
+    font-family: "OpenSans-Regular";
+}
+
+.post-layout {
+    background-color: #fff;
+}
+
+.post-layout .bg-white {
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 1px;
+}
+
+.post-detail .card-body {
+    background: #162a52;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+}
+
+.post-detail h1 {
+    color: white;
+    font-size: 18px;
+    font-family: "Inter-Bold";
+    font-weight: bold;
+}
+
+.meta-icon {
+    color: #162a52;
+}
+
+.meta-icon a {
+    color: #162a52;
+    font-weight: 500;
+}
+
+.post-detail .article-detail {
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #162a52;
+    font-family: "Inter-Regular";
+    font-size: 14px;
+    color: #1a2c58;
+}
+
+.article-detail {
+    gap: 20px;
+}
+
+/* ----------.post-layout->.social-icons----------- */
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons img:hover {
+    transform: translateY(-4px);
+}
+
+.social-icons img {
+    transition: all 0.25s ease;
+}
+
+/* ----------post-layout->content----------- */
+.table-of-contents {
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    margin-left: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.table-of-contents .title {
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+}
+
+.table-of-contents .toc-hierarchy {
+    padding: 0 15px 15px;
+    font-size: 15px;
+}
+
+.table-of-contents .toc-hierarchy ul li {
+    margin: 0;
+    list-style: none !important;
+}
+
+.post-detail .content ul {
+    margin-left: 50px;
+}
+
+.table-of-contents ul {
+    padding: 0;
+}
+
+.title span {
+    cursor: pointer;
+}
+
+.toc-hierarchy {
+    overflow: hidden;
+}
+
+.post-detail .content ul {
+    margin-left: 50px;
+}
+
+.post-detail .content ul li {
+    margin-bottom: 10px;
+    list-style: disc;
+}
+
+.post-detail .content a {
+    color: #29A4CF;
+    font-weight: bold;
+}
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.author-title {
+    color: #bbbbbb !important;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hbr-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.logo-container {
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+.hbr-logo {
+    width: 100px;
+    height: auto;
+}
+
+.header-content {
+    flex-grow: 1;
+}
+
+.school-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0f2a51 !important;
+    margin-bottom: 10px;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icon img {
+    width: 40px;
+}
+
+.school-description {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #bbbbbb !important;
+}
+
+.school-name a {
+    text-decoration: none;
+    color: inherit;
+    color: #0f2a51 !important;
+}
+
+/* ----------Sidebar----------- */
+
+.fix-sidebar {
+    position: sticky;
+    top: 76px;
+}
+
+.upcoming-courses {
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+
+.post-layout .upcoming-courses .card-header {
+    background: #f1f1f1;
+    border: none;
+    padding: 15px 20px;
+    font-family: "Inter-Bold";
+    font-size: 16px;
+    color: #00285a;
+}
+
+.card-header:first-child {
+    border-radius: var(--bs-card-inner-border-radius) var(--bs-card-inner-border-radius) 0 0;
+}
+
+.card-header {
+    padding: var(--bs-card-cap-padding-y) var(--bs-card-cap-padding-x);
+    margin-bottom: 0;
+    color: var(--bs-card-cap-color);
+    background-color: var(--bs-card-cap-bg);
+    border-bottom: var(--bs-card-border-width) solid var(--bs-card-border-color);
+}
+
+.upcoming-courses .card-body {
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+}
+
+.upcoming-courses ul li {
+    border-left: 5px solid #ce2027;
+    margin: 10px 0;
+    padding-left: 10px;
+}
+
+.upcoming-courses ul li a {
+    font-family: "Inter-Bold";
+    font-size: 16px;
+    color: #00285a;
+}
+
+.upcoming-courses ul li span {
+    font-family: "Inter-Regular";
+    font-size: 14px;
+    color: #00285a;
+}
+
+.related-posts .card-header {
+    background: #f1f1f1;
+    border: none;
+    padding: 15px 20px;
+    font-family: "Inter-Bold";
+    font-size: 16px;
+    color: #00285a;
+}
+
+.related-posts a {
+    color: #00285A;
+    margin-top: 8px;
+}
+
+.related-posts img {
+    border-radius: 8px;
+}

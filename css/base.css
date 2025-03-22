@@ -21,10 +21,15 @@
 }
 
 @font-face {
-    font-family: "OpenSans-Regular";
-    src: url("../fonts/OpenSans-Regular.ttf");
+    font-family: "OpenSans-bold";
+    src: url("../fonts/OpenSans-Bold.ttf");
 }
 
+
+@font-face {
+    font-family: "Inter-Regular";
+    src: url("../fonts/Inter_18pt-Regular.ttf");
+  }
 html,
 body {
     font-family: system-ui, sans-serif;
@@ -34,6 +39,7 @@ body {
     /* Ẩn cuộn ngang */
     max-width: 100%;
     /* Giới hạn chiều rộng tối đa */
+    overflow-y: visible;
 }
 
 a,
